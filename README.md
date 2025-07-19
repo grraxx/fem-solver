@@ -61,7 +61,9 @@ Upon running the script, you will be guided through the following steps:
 
 2. Force Input: A ```tkinter``` window titled "Input Forces" will open. Here, you can enter the forces in the X and Y directions for each node. By default, all forces are zero. Click Submit after entering the values.
 
-3. Boundary Conditions: A new ```matplotlib``` window appears. In this interactive plot:
+![Force Input](images/input-forces.jpg)
+
+4. Boundary Conditions: A new ```matplotlib``` window appears. In this interactive plot:
 
     - **Left-click** on a node to toggle its X-displacement constraint.
 
@@ -70,10 +72,12 @@ Upon running the script, you will be guided through the following steps:
     - Node colors indicate their status: **Blue** (Free), **Orange** (X-fixed), **Green** (Y-fixed), **Red** (Fully Fixed).
 
     - Click the **Submit** button on the plot when you are done.
+  
+![Fix DOF](images/fix-dof.jpg)
 
-4. Results in Console: After submitting the boundary conditions, the script will solve for the unknown displacements. The results, including the global displacement vector Q and the stress/force in each element, will be printed to the console.
+5. Results in Console: After submitting the boundary conditions, the script will solve for the unknown displacements. The results, including the global displacement vector Q and the stress/force in each element, will be printed to the console.
 
-5. Final Visualization: A final plot will be displayed, showing the original truss in blue and the deflected truss in a red dashed line. The displacements are scaled by a factor (default is 10) to make the deformation visible.
+6. Final Visualization: A final plot will be displayed, showing the original truss in blue and the deflected truss. The displacements are scaled by a factor (default is 10) to make the deformation visible.
 
 ## ⚙️ Code Structure
 The code is organized into several key functions that handle different parts of the analysis process.
