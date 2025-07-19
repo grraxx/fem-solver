@@ -79,6 +79,8 @@ Upon running the script, you will be guided through the following steps:
 
 6. Final Visualization: A final plot will be displayed, showing the original truss in blue and the deflected truss. The displacements are scaled by a factor (default is 10) to make the deformation visible.
 
+![Results](images/result.jpeg)
+
 ## ⚙️ Code Structure
 The code is organized into several key functions that handle different parts of the analysis process.
 
